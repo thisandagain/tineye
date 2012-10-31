@@ -13,11 +13,11 @@
     "test": "tap ./test/*.js"
   },
   "dependencies": {
-    "async": "~0.1.22",
     "lodash": "~0.8.1",
     "cork": "~0.0.1"
   },
   "devDependencies": {
+    "async": "~0.1.22",
     "tap": "~0.3.1",
     "codebux": "~0.1.2"
   },
