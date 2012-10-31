@@ -13,7 +13,7 @@ npm install tineye
 var tineye = require('tineye'),
     client = new tineye('publicKey', 'privateKey');
 
-// Let's search for an image located at this path:
+// Let's search for an image by it's URL
 var imagePath = 'http://www.tineye.com/images/meloncat.jpg';
 client.search(imagePath, function (err, results) {
     console.dir(results);   // Look at all those cat pictures!
@@ -24,7 +24,7 @@ client.remaining(function (err, results) {
     console.dir(results);
 });
 
-// Lastly, let's check TinEye's number of indexed images
+// Lastly, let's how many images tineye has in it's index
 client.count(function (err, results) {
     console.dir(results);
 });
