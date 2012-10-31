@@ -24,7 +24,7 @@ client.remaining(function (err, results) {
     console.dir(results);
 });
 
-// Lastly, let's how many images tineye has in it's index
+// Lastly, let's see how many images tineye has in it's index
 client.count(function (err, results) {
     console.dir(results);
 });
