@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
   "name": "tineye",
   "description": "Node.js client for the Tineye API",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/thisandagain/tineye",
   "repository": {
     "type": "git",
