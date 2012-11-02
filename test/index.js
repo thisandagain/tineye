@@ -33,6 +33,8 @@ async.auto({
     },
 
     test:       ['search', 'remaining', 'count', function (callback, obj) {
+        console.dir(obj);
+        
         test('Component definition', function (t) {
             t.type(tineye, 'object', 'Component should be an object');
             t.type(tineye.search, 'function', 'Method should be a function');
