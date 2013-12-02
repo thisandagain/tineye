@@ -2,7 +2,7 @@
   "author": "Andrew Sliwinski <andrewsliwinski@acm.org> (http://andrewsliwinski.com)",
   "name": "tineye",
   "description": "Node.js client for the Tineye API",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/thisandagain/tineye",
   "repository": {
     "type": "git",
@@ -10,16 +10,15 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "test": "tap ./test/*.js"
+    "test": "make test"
   },
   "dependencies": {
-    "lodash": "~0.8.1",
-    "cork": "~0.0.1"
+    "cork": "~0.0.1",
+    "lodash": "~2.4.0"
   },
   "devDependencies": {
-    "async": "~0.1.22",
-    "tap": "~0.3.1",
-    "codebux": "~0.1.2"
+    "hint-hint": "~0.4.0",
+    "tap": "~0.3.1"
   },
   "optionalDependencies": {},
   "engines": {
